@@ -16,7 +16,9 @@ class ViewController: UIViewController {
     @IBAction func goButton(_ sender: Any) {
     
         print("date from: \(dateFromTextfield.text)")
-    
+        print("date to: \(dateToTextfield.text)")
+        
+        daysLeftResult.text = dateFromTextfield.text
     
     }
     
