@@ -9,7 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var dateFromTextfield: UITextField!
+    @IBOutlet weak var dateToTextfield: UITextField!
+    @IBOutlet weak var daysLeftResult: UITextField!
+    @IBAction func goButton(_ sender: Any) {
+    
+        print("date from: \(dateFromTextfield.text)")
+    
+    
+    }
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
